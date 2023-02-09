@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Inter&family=Open+Sans&family=Rajdhani:wght@600&family=Righteous&family=Sarala:wght@400;700&family=Silkscreen&family=Sofia+Sans+Extra+Condensed&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sofia Sans Extra Condensed'
+}
+
+h1 {
+text-align: center;
+font-size: 30px;
+margin-bottom: 15px;
+text-transform: uppercase;
+color:rgb(255, 68, 0)
+}
+
+.container-main {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(0, 0, 0);
+}
+
+.container-main .first-container {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(27, 27, 27);
+}
+
+.container-main .first-container form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgb(2, 2, 2);
+}
+
+.container-main .first-container input {
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    background-color: transparent;
+    border-top-style:none ;
+    border-color: rgb(255, 255, 255);
+}
+
+.container-main .first-container input::placeholder{
+    font-size: 20px;
+    color: rgb(255, 68, 0)
+}
+
+.container-main .first-container label {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 68, 0)
+}
+
+.container-main .first-container textarea {
+    width: 250px;
+    height: 100px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: 3px groove rgb(255, 255, 255)
+}
+
+.container-main .first-container button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px groove rgb(255, 68, 0);
+    width: 150px;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(255, 68, 0)
+}
+
+.container-main .second-container {
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(27, 27, 27);
+}
+
+.container-main .second-container figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(27, 27, 27);
+}
+
+.container-main .second-container img {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
