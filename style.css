@@ -16,6 +16,10 @@ text-transform: uppercase;
 color:rgb(255, 68, 0)
 }
 
+h1:hover {
+    color: rgb(116, 0, 224);
+}
+
 .container-main {
 display: flex;
 justify-content: center;
@@ -49,9 +53,18 @@ background-color: rgb(0, 0, 0);
     width: 250px;
     height: 30px;
     margin: 10px;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
     background-color: transparent;
     border-top-style:none ;
     border-color: rgb(255, 255, 255);
+}
+
+.container-main .first-container input:hover {
+    color:rgb(116, 0, 224);
+    background-color: rgb(255, 255, 255);
+    border-top-style:none ;
+    border-color: rgb(116, 0, 224);
 }
 
 .container-main .first-container input::placeholder{
@@ -66,16 +79,30 @@ background-color: rgb(0, 0, 0);
     color: rgb(255, 68, 0)
 }
 
+.container-main .first-container label:hover{
+    color: rgb(116, 0, 224);
+    cursor: pointer;
+}
+
 .container-main .first-container textarea {
+    font-size: 18px;
     width: 250px;
     height: 100px;
     margin-top: 5px;
+    color: rgb(255, 68, 0);
     background-color: transparent;
     border: 3px groove rgb(255, 255, 255)
 }
 
+.container-main .first-container textarea:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(116, 0, 224);
+    cursor: pointer;
+}
+
 .container-main .first-container button {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     border-radius: 30px;
     border: 2px groove rgb(255, 68, 0);
@@ -83,6 +110,14 @@ background-color: rgb(0, 0, 0);
     background-color: transparent;
     font-size: 20px;
     color: rgb(255, 68, 0)
+}
+
+.container-main .first-container button:hover {
+    width: 100px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(116, 0, 224);
+    border: 4px inset rgb(116, 0, 224);
+    cursor: pointer;
 }
 
 .container-main .second-container {
@@ -108,4 +143,8 @@ background-color: rgb(0, 0, 0);
     border-radius: 10px;
     width: 300px;
     height: 300px;
+}
+
+.container-main .second-container img:hover {
+    border: 4px double rgb(116, 0, 224);
 }
